@@ -13,10 +13,12 @@ namespace _13._3_tdd_Geometrie
         private int breite;
         private int hoehe;
 
+        public Rechteck() 
+        { }
         public Rechteck(int breite, int hoehe)
-        {
-            this.breite = Breite;
-            this.hoehe = Hoehe;
+        { 
+            this.breite = breite;
+            this.hoehe = hoehe;
         }
 
         public int Breite

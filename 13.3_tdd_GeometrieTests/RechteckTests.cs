@@ -106,19 +106,19 @@ namespace _13._3_tdd_GeometrieTests // Namenskonvention: <zuTestendesProjekt>Tes
             Assert.AreEqual(200, ergebnis);
         }
 
-        //[TestMethod]
-        //public void Rechteck_KannMitStartwertenErsteltWerden()
-        //{
-        //    // Arrange
-        //    int breite = 1;
-        //    int hoehe = 2;
+        [TestMethod]
+        public void Rechteck_KannMitStartwertenErsteltWerden()
+        {
+            // Arrange
+            int breite = 1;
+            int hoehe = 2;
 
-        //    // Act
-        //    Rechteck r = new Rechteck(breite, hoehe);
+            // Act
+            Rechteck r = new Rechteck(breite, hoehe);
 
-        //    // Assert
-        //    Assert.AreEqual(breite, r.Breite);
-        //    Assert.AreEqual(hoehe, r.Hoehe);
-        //}
+            // Assert
+            Assert.AreEqual(breite, r.Breite);
+            Assert.AreEqual(hoehe, r.Hoehe);
+        }
     }
 }
